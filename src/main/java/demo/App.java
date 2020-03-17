@@ -41,7 +41,7 @@ public class App {
             String currentContent;
             String[] arrayColumnName = null;
             while((currentContent = buffReader.readLine()) != null) {
-                buffReader.readLine();
+                //buffReader.readLine();
                 if (row == 0) {
                     arrayColumnName = currentContent.split(",");
                 } else {
